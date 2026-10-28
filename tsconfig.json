@@ -13,7 +13,7 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./*"],
-      "@/components/ui/marginalia-portfolio-template": ["./marginalia-portfolio-template.tsx"]
+      "@/portfolio": ["./portfolio.tsx"]
     }
   },
   "include": ["*.ts", "*.tsx", "*.d.ts"],

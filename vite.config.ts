@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
-      "@/components/ui/marginalia-portfolio-template": path.resolve(__dirname, "./marginalia-portfolio-template.tsx"),
+      "@/portfolio": path.resolve(__dirname, "./portfolio.tsx"),
       "@": path.resolve(__dirname, "./"),
     },
   },

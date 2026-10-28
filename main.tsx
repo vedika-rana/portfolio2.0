@@ -1,14 +1,14 @@
 import * as React from "react"
 import { createRoot } from "react-dom/client"
 import "./styles.css"
-import MarginaliaPortfolioTemplate from "./marginalia-portfolio-template"
+import Portfolio from "./portfolio"
 import portraitImg from "./vedika.jpg"
 
 const U = "https://images.unsplash.com/photo-"
 
 export default function App() {
   return (
-    <MarginaliaPortfolioTemplate
+    <Portfolio
       name="Vedika Rana"
       role="Aspiring Full-Stack Developer"
       year="2026"
