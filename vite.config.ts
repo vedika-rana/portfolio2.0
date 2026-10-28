@@ -4,13 +4,16 @@ import tailwindcss from "@tailwindcss/vite"
 import path from "node:path"
 
 export default defineConfig({
-  base: "./",
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
       "@/portfolio": path.resolve(__dirname, "./portfolio.tsx"),
       "@": path.resolve(__dirname, "./"),
     },
+  },
+  server: {
+    port: 5173,
+    host: true,
   },
 })
 
