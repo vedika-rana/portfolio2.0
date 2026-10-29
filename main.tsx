@@ -2,7 +2,7 @@ import * as React from "react"
 import { createRoot } from "react-dom/client"
 import "./styles.css"
 import Portfolio from "./portfolio"
-import portraitImg from "./vedika.jpg"
+import portraitImg from "/vedika.jpg"
 
 const U = "https://images.unsplash.com/photo-"
 
